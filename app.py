@@ -30,11 +30,10 @@ if symbol:
         col1, col2 = st.columns(2)
         col1.metric("Bid Price", f"${q.bid_price:.2f}")
         col2.metric("Ask Price", f"${q.ask_price:.2f}")
+        
+        st.caption(f"Last updated: {time.strftime('%H:%M:%S')}")
     except Exception as e:
         st.error(f"Could not fetch quote: {e}")
-
-    if st.button("🔄 Refresh Quotes"):
-        st.rerun()
 
     st.subheader(f"Historical Data for {symbol}")
     
@@ -60,7 +59,7 @@ if symbol:
     
     st.plotly_chart(fig, use_container_width=True)
     
-    # Show latest quote info
+    # Show latest price info
     st.subheader("Latest Price Info")
     latest = df.iloc[-1]
     
@@ -71,3 +70,7 @@ if symbol:
 
     st.subheader("Raw Data")
     st.dataframe(df.tail(10))
+
+# Auto refresh every 5 seconds
+time.sleep(5)
+st.rerun()
