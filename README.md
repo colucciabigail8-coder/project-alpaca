@@ -31,3 +31,21 @@ streamlit run app.py
 - Streamlit
 - Plotly
 - Pandas
+## Week 2: Strategy Backtesting Platform
+
+### Features
+- 5 years of historical daily OHLCV data from Alpaca
+- 7 technical indicators (SMA, EMA, MACD, RSI, Bollinger Bands, ATR, OBV)
+- 3 trading strategies (Trend Following, Mean Reversion, Custom)
+- Backtesting engine with $100,000 initial capital
+- Performance metrics (Total Return, CAGR, Volatility, Sharpe, Sortino, Max Drawdown)
+- Equity curve, price chart with signals, and drawdown comparison charts
+
+### New Files
+- indicators.py - Technical indicator calculations
+- strategies.py - Trading strategy logic
+- backtest.py - Backtesting engine and Streamlit UI
+- report.md - Full performance analysis report
+
+### How to Run Backtesting
+streamlit run backtest.py
