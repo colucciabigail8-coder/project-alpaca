@@ -49,3 +49,29 @@ streamlit run app.py
 
 ### How to Run Backtesting
 streamlit run backtest.py
+## Week 3: Machine Learning Trading Signal
+
+### Features
+- Random Forest classifier to predict next day price direction
+- 15 features including technical indicators, log returns, rolling statistics
+- PCA applied to compress features while keeping 80% of variance
+- Paper trading integration with Alpaca API
+- Comparison of ML Strategy vs Buy & Hold
+
+### New Files
+- ml_strategy.py - Feature engineering, PCA, Random Forest model, backtesting
+- ml_app.py - Streamlit UI for ML platform and paper trading
+
+### How to Run
+streamlit run ml_app.py
+
+### Results (AAPL)
+- ML Strategy Total Return: 22.47%
+- ML Strategy Sharpe Ratio: 0.70
+- ML Strategy Max Drawdown: -5.6%
+- Buy & Hold Total Return: 110.11%
+- ML Strategy had significantly lower risk and similar Sharpe ratio
+
+### Paper Trading
+- Successfully executed paper trade on Alpaca
+- Paper trading only — no real money used
