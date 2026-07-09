@@ -75,3 +75,4 @@ streamlit run ml_app.py
 ### Paper Trading
 - Successfully executed paper trade on Alpaca
 - Paper trading only — no real money used
+https://drive.google.com/file/d/1-CorXnHgzRK6ynssVW09-DCgv2mMrPgs/view?usp=sharing
