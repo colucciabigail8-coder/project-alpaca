@@ -31,6 +31,7 @@ streamlit run app.py
 - Streamlit
 - Plotly
 - Pandas
+https://drive.google.com/file/d/1VKoA-xI4MW1mVA14V6-hyeQU6EswGzIe/view?usp=sharing
 ## Week 2: Strategy Backtesting Platform
 
 ### Features
@@ -49,6 +50,7 @@ streamlit run app.py
 
 ### How to Run Backtesting
 streamlit run backtest.py
+https://drive.google.com/file/d/1xf3kmBHdOnhuUffgqopxzqOop85E2-8M/view?usp=sharing
 ## Week 3: Machine Learning Trading Signal
 
 ### Features
