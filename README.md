@@ -111,3 +111,4 @@ See requirements.txt for full list of dependencies.
 ## Disclaimer
 This system is for educational purposes only and uses Alpaca's paper trading 
 environment. No real money is used at any point.
+https://drive.google.com/file/d/1sXnzHkmlWQdo6uI733qqvGVXkZ5MvH5f/view?usp=sharing
